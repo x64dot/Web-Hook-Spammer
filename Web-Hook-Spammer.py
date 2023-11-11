@@ -13,7 +13,7 @@ class WebhookSpammer:
         loss = 0 
         json_data = {"content" : self.content, "username" : self.username}
 
-        for _  in range(self.amount):
+        for _ in range(self.amount):
             try:
                 count += 1
                 print(f"[+] Spam message sent! count = {count}.")
